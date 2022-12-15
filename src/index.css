@@ -24,7 +24,6 @@
 .child-div .addItems{
     text-align: left;
 }
-
 .addItems{
     margin: 2% 0%;
     background-color: #f4f4f4;
@@ -39,25 +38,10 @@ input{
     border: none;
     /* background: white; */
     font-size: 500;
-    width: 60%;
+    width: 92%;
     /* border-bottom: 2px solid #8566aa; */
     outline: none;
 }
-
-/* button{
-    min-height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    border-color: transparent;
-    background-color: #8566aa;
-    color: #fff;
-    font-size: 40px;
-    border: none;
-    outline: none;
-    margin-left: 10px;
-    box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
-} */
-
 .eachItem{
     text-align: left;
     /* height: 30px; */
@@ -72,18 +56,20 @@ input{
     flex-direction: row;
     padding: 2%;
     margin-bottom: 2%;
-    
 }
 .eachItem:hover{
     background: #f4f4f4;
 }
-.add-btn{
-    margin-left: 30%;
+.text
+{
+    width: 93%;
+}
+.add-btns{
+    float: right;
 }
 .add-btn:hover{
     color:blue;
 }
-
 .add-btns:hover{
     color:blue;
 }

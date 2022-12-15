@@ -3,7 +3,6 @@ import { useState } from "react";
 import todo from "../images/images.jpeg";
 // import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
-
 const Todo = () => {
     const [inputData, setInputData] = useState('');
     const [items, setItems] = useState([]);
@@ -56,8 +55,8 @@ const Todo = () => {
                             items.map((elem, index) => {
                                 return (
                                     <div className="eachItem" key={index}>
+                                        <h3 className="text">{elem}</h3>
                                         <i className="fa fa-solid fa-trash add-btns" title="Delete Item" onClick={() => deleteitem(index)}></i>
-                                        <h3>{elem}</h3>
                                     </div>
                                     // we have to use arrow fucntion in to deleteitem and to apss id with this fxn if we dont do this then we will get automatically call this fxn every time while we are typing in input box
                                 )
