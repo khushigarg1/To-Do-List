@@ -56,16 +56,14 @@ input{
     flex-direction: row;
     padding: 2%;
     margin-bottom: 2%;
+    padding: 6px 2px 6px 7px ;
 }
 .eachItem:hover{
     background: #f4f4f4;
 }
 .text
 {
-    width: 93%;
-}
-.add-btns{
-    float: right;
+    width: 83%;
 }
 .add-btn:hover{
     color:blue;
@@ -84,4 +82,11 @@ input{
 }
 button:hover::before{
     content: "Remove all";
+}
+.todo-btn{
+    display: flex;
+}
+.add-btns{
+    margin-right: 10px;
+
 }
